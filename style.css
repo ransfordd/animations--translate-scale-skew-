@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.boom {
+  width: 30px;
+  height: 30px;
+  animation: transform 2s ease-in-out 1s infinite alternate both;
+}
+
+.box1 {
+  background: pink;
+  margin: 0;
+}
+.box2 {
+  background: blue;
+  margin: 0;
+}
+.box3 {
+  background: green;
+  margin: 0;
+}
+.box4 {
+  background: orange;
+  margin: 0;
+}
+
+@keyframes transform {
+  100% {
+    transform: translate(12.5vw, 12.5vh) scaleX(4) skewY(40deg);
+  }
+}
